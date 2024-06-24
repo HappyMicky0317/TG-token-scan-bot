@@ -1,0 +1,80 @@
+PIRBView commands:
+
+Book an advertisement on PIRBView scans:
+/advert
+
+Full security scan:
+/s CA or /s NAME
+
+Short info scan:
+/i CA or /i NAME
+
+Pull on-chain chart:
+/c CA or /c NAME
+
+Generate a EarlyBuyersMap:
+/e CA or /e NAME (ERC20 & BEP20 only)
+
+Generate a JeetMap:
+/j CA or /j NAME (ERC20 & BEP20 only)
+
+Generate a OverlapMap:
+/o NAME1 NAME2 or /o CA1 CA2 (ERC20 only)
+
+Generate a BubbleMap:
+/b CA or /b NAME (ERC20 & BEP20 only)
+
+Generate a WhaleMap:
+/whale CA or /whale NAME (ERC20 & BEP20 only)
+
+Generate a HoldersMap:
+/hmap CA or /hmap NAME (ERC20 & BEP20 only)
+
+Generate a AirdropMap:
+/a CA or /a NAME (ERC20 & BEP20 only)
+
+Check collected taxes:
+/tax CA or /tax NAME (ERC20 & BEP20 only)
+
+Team analysis:
+/team CA or /team NAME (ERC20 only)
+
+Top 15 holders analysis:
+/h CA or /h NAME (ERC20 & BEP20 only)
+
+Generate a wallet's Profit & Loss analysis:
+/pnl WALLETADDRESS (ERC20 only)
+
+On-chart Fibonacci levels & RSI generation:
+/ta CA or /ta NAME
+
+On-chart Moving Averages generation:
+/ma CA or /ma NAME
+
+On-chart Exponential Moving Averages generation:
+/ema CA or /ema NAME
+
+On-chart Bollinger Bands generation:
+/bol CA or /bol NAME
+
+On-chart Stochastik Movement Index generation:
+/smi CA or /smi NAME
+
+On-chart price prediction:
+/predict CA or /predict NAME
+
+See buy/sell trades on a token chart:
+/tr CA/NAME WALLETADDRESS TIMEFRAME (ERC20 only)
+Usage example: /tr PIRB WALLETADDRESS 4h
+
+See the current ETH and gas prices:
+/gas
+
+See the Top 10 scanned tokens:
+/top10
+
+See the current fear and greed chart:
+/fear
+
+Generate a overall crypto heatmap:
+/market
